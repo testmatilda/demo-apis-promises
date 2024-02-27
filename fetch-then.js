@@ -6,6 +6,7 @@ const word = "conundrum" //path param
 
 const URL = `${BASE_URL}${word}?key=${API_KEY}`
 
+//DOM Selectors
 const wordTitle = document.getElementById("word")
 const type = document.getElementById("type")
 const explanation = document.getElementById("explanation")
